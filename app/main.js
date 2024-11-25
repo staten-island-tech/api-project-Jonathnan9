@@ -2,8 +2,6 @@ import "./style.css";
 
 const apiEntry = "https://restcountries.com/v3.1/all";
 
-console.log(fetch(apiEntry));
-
 fetch(apiEntry).then((response) => response.json());
 
 async function fetchData(apiEntry) {
