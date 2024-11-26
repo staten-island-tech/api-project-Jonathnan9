@@ -18,7 +18,7 @@ async function fetchData(apiEntry) {
 fetchData(apiEntry);
 
 function createCountryCard(countries) {
-  const container = document.querySelector(".boxes");
+  const container = document.querySelector("#boxes");
   // prettier-ignore
   countries.forEach((country) => {
     container.insertAdjacentHTML(
