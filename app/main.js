@@ -24,7 +24,7 @@ function createCountryCard(countries) {
     container.insertAdjacentHTML(
       "beforeend",
       `
-        <div class="box rounded-2xl bg-neutral border-secondary border mx-auto my-4 w-5/12 md:w-5/12 h-96 p-4 min-w-[12em] text-center">
+        <div class="box rounded-2xl bg-neutral border-secondary border mx-auto my-3 w-3/12 md:w-3/12 h-96 p-4 min-w-[12em] text-center">
           <h2 class="text-lg font-bold text-base-100">${country.name.common}</h2>
           <div class="content flex items-start gap-4 mt-4">
             <img src="${country.flags.svg}" alt="Flag of ${country.name.common}" class="h-60 w-[17em] border-r-2 border-base-100 pr-4">
