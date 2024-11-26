@@ -1,4 +1,6 @@
 import "./style.css";
+import { themeChange } from "theme-change";
+themeChange();
 
 const apiEntry = "https://restcountries.com/v3.1/all";
 
