@@ -5,7 +5,13 @@ module.exports = {
     themes: ["retro", "coffee"],
   },
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        31: "31%",
+        46: "46%",
+        78: "78%",
+      },
+    },
   },
   plugins: [require("daisyui")],
 };
